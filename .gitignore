@@ -1,0 +1,37 @@
+# Dependências do Node.js
+backend/node_modules/
+backend/dist/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# Diretórios temporários
+temp/
+.tmp/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Diretórios de build
+dist/
+build/
+
+# Configurações do sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Arquivos do Git
+*.swp
+*.swo
