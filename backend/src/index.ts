@@ -30,7 +30,7 @@ app.get('/api/test', async (req, res) => {
         const result = await pool.query('SELECT NOW()');
         res.json({
             message: 'Hello from the backend!',
-            databaseTime: result.rows[0].now, // Tempo atual do banco de dados
+            databaseTime: result.rows[0].now,
         });
     } catch (error: any) {
         console.error('Database connection error:', error);
